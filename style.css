@@ -3,5 +3,11 @@
 }
 .link{
     text-decoration: none;
-    color: inherit;
+
+}
+.cabecera {
+    justify-content: space-between;
+}
+.cabecera .nav-links li{
+    margin-left: 23px;
 }

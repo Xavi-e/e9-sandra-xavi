@@ -1,19 +1,14 @@
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
 .cabecera{
     height: 100px;
 }
 .link{
     text-decoration: none;
-
-}
-.cabecera {
-    justify-content: space-between;
-}
-.cabecera .nav-links li{
-    margin-left: 23px;
-}
-.contenido-principal {
-    margin-top: 40px;
-}
-
     color: inherit;
 }

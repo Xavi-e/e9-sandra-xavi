@@ -8,6 +8,10 @@
 .cabecera {
     justify-content: space-between;
 }
+.cabecera .huella {
+    height: 50px;
+    
+}
 .cabecera .nav-links li{
     margin-left: 23px;
 }

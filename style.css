@@ -1,7 +1,7 @@
-*{
-    box-sizing: border-box;
+.cabecera{
+    height: 100px;
 }
-
-body{
- margin: 0;
+.link{
+    text-decoration: none;
+    color: inherit;
 }

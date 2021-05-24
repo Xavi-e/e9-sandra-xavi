@@ -1,4 +1,14 @@
 
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+.cabecera{
+    height: 100px;
+}
 .link{
     text-decoration: none;
 }
@@ -11,7 +21,7 @@
     height: 120px;
     justify-content: space-between;
     background-color: #FFF;
-    
+
 }
 .cabecera .nav-links ul {
     justify-content: flex-end;
@@ -19,7 +29,35 @@
 
 .cabecera .nav-links li a {
         color: #000;
-        
+
+        font-weight: bold;
+
+}
+.contenedor-imagenes {
+
+  justify-content: space-around;
+
+}
+.imagenes-animales {
+  height: 300px;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 35px;
+  padding: 0;
+}
+.juguetes {
+  background-image: url("imagenes/01.jpg");
+}
+
+.gato {
+  background-image: url("imagenes/02.jpg");
+}
+
+.perro {
+  background-image: url("imagenes/03.jpg");
 }
 
 .navbar-nav .boton-cabecera-especial {
@@ -29,19 +67,18 @@
     border-radius: 0 33px 33px 33px;
     border: 3px solid var(--color-principal);
 }
+
 .main .pet {
   color: var(--color-principal);
 }
 .main .h1 {
   font-weight: bold;
 }
-.juguete {
-    border-radius: 100px;
-  }
-  .gato {
-    border-radius: 100px;
-  }
-  .perro-marron {
-  
-    border-radius: 100px;
-  }
+
+.contenido-principal .boton-principal {
+  font-weight: bold;
+  height: 66px;
+  width: 175px;
+  border-radius: 0 33px 33px 33px;
+  border: 3px solid var(--color-principal);
+}

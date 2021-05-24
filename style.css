@@ -25,9 +25,7 @@
 .cabecera .nav-links ul {
     justify-content: flex-end;
 }
-.cabecera .nav-links li{
-   margin-left: 40px;
-}
+
 .cabecera .nav-links li a {
         color: #000;
 

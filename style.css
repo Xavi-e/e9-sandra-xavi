@@ -20,7 +20,7 @@
 .cabecera {
     justify-content: space-between;
     background-color: #FFF;
-    
+
 }
 .cabecera .nav-links ul {
     justify-content: flex-end;
@@ -61,4 +61,10 @@
     border-radius: 0 33px 33px 33px;
     border: 3px solid var(--color-principal);
 }
-
+.contenido-principal .boton-principal {
+  font-weight: bold;
+  height: 66px;
+  width: 175px;
+  border-radius: 0 33px 33px 33px;
+  border: 3px solid var(--color-principal);
+}

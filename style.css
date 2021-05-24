@@ -1,3 +1,10 @@
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
 .cabecera{
     height: 100px;
 }
@@ -30,7 +37,5 @@
 .cabecera .nav-links li a {
         color: #000;
         font-weight: bold;
-}
-.contenido-principal {
-    margin-top: 40px;
+
 }

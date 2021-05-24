@@ -1,4 +1,14 @@
 
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+.cabecera{
+    height: 100px;
+}
 .link{
     text-decoration: none;
 }
@@ -10,7 +20,7 @@
 .cabecera {
     justify-content: space-between;
     background-color: #FFF;
-    
+
 }
 .cabecera .nav-links ul {
     justify-content: flex-end;
@@ -18,8 +28,29 @@
 
 .cabecera .nav-links li a {
         color: #000;
-        
+
+        font-weight: bold;
+
 }
+.juguete {
+  border-radius: 100px;
+
+}
+.gato {
+  border-radius: 100px;
+}
+.perro-marron {
+
+  border-radius: 100px;
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    align-content: space-between;
+  }
 
 .navbar-nav .boton-cabecera-especial {
     font-weight: bold;
@@ -28,13 +59,10 @@
     border-radius: 0 33px 33px 33px;
     border: 3px solid var(--color-principal);
 }
-.juguete {
-    border-radius: 100px;
-  }
-  .gato {
-    border-radius: 100px;
-  }
-  .perro-marron {
-  
-    border-radius: 100px;
-  }
+.contenido-principal .boton-principal {
+  font-weight: bold;
+  height: 66px;
+  width: 175px;
+  border-radius: 0 33px 33px 33px;
+  border: 3px solid var(--color-principal);
+}

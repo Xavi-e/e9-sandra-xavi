@@ -1,4 +1,14 @@
 
+:root {
+  --color-principal: #ed6436;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+.cabecera{
+    height: 100px;
+}
 .link{
     text-decoration: none;
 }
@@ -21,6 +31,16 @@
 .cabecera .nav-links li a {
         color: #000;
         font-weight: bold;
+
+}
+.juguete {
+  border-radius: 50px;
+}
+.gato {
+  border-radius: 50px;
+}
+.perro-marron {
+  border-radius: 50px;
 }
 
 .navbar-nav .boton-cabecera-especial {
@@ -30,3 +50,4 @@
     border-radius: 0 33px 33px 33px;
     border: 3px solid var(--color-principal);
 }
+

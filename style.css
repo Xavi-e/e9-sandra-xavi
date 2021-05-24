@@ -12,3 +12,12 @@
     text-decoration: none;
     color: inherit;
 }
+.juguete {
+  border-radius: 50px;
+}
+.gato {
+  border-radius: 50px;
+}
+.perro-marron {
+  border-radius: 50px;
+}

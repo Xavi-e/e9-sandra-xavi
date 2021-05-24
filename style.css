@@ -32,25 +32,32 @@
         font-weight: bold;
 
 }
-.juguete {
-  border-radius: 100px;
+.contenedor-imagenes {
+
+  justify-content: space-around;
 
 }
+.imagenes-animales {
+  height: 300px;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 35px;
+  padding: 0;
+}
+.juguetes {
+  background-image: url("imagenes/01.jpg");
+}
+
 .gato {
-  border-radius: 100px;
+  background-image: url("imagenes/02.jpg");
 }
-.perro-marron {
 
-  border-radius: 100px;
+.perro {
+  background-image: url("imagenes/03.jpg");
 }
-.imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 600px;
-    height: 500px;
-    align-content: space-between;
-  }
 
 .navbar-nav .boton-cabecera-especial {
     font-weight: bold;

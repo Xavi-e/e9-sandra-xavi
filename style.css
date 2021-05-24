@@ -19,7 +19,7 @@
 }
 .cabecera {
     justify-content: space-between;
-    
+
 }
 .cabecera .huella {
     margin-left: 20px;
@@ -40,11 +40,20 @@
 
 }
 .juguete {
-  border-radius: 50px;
+  border-radius: 100px;
 }
 .gato {
-  border-radius: 50px;
+  border-radius: 100px;
 }
 .perro-marron {
-  border-radius: 50px;
+  border-radius: 100px;
 }
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    align-content: space-between;
+  }
+

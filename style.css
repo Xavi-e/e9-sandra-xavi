@@ -42,10 +42,16 @@
   color: #000;
 }
 .contenido-principal {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .contenido-principal .pet {
   color: var(--color-principal);
+  font-size: 20px;
+  font-weight: bold;
+}
+.contenido-principal .titulo {
+  font-size: 70px;
+  font-weight: bold;
 }
 .contenido-principal .boton-principal:hover {
     background-color: var(--color-principal);
@@ -101,12 +107,6 @@
     border: 3px solid var(--color-principal);
 }
 
-.main .pet {
-  color: var(--color-principal);
-}
-.main .h1 {
-  font-weight: bold;
-}
 
 .contenido-principal .boton-principal {
   font-weight: bold;

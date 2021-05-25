@@ -37,6 +37,11 @@
   background-color: var(--color-principal);
   color: #FFF;
 }
+.cabecera .boton-cabecera-especial:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
 .contenido-principal .boton-principal:hover {
     background-color: var(--color-principal);
     color: #FFF;

@@ -41,7 +41,12 @@
   background-color: #FFF;
   color: #000;
 }
-
+.contenido-principal {
+  margin-top: 40px;
+}
+.contenido-principal .pet {
+  color: var(--color-principal);
+}
 .contenido-principal .boton-principal:hover {
     background-color: var(--color-principal);
     color: #FFF;

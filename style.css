@@ -33,6 +33,19 @@
         font-weight: bold;
 
 }
+.cabecera .boton-cabecera-especial {
+  background-color: var(--color-principal);
+  color: #FFF;
+}
+.cabecera .boton-cabecera-especial:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.contenido-principal .boton-principal:hover {
+    background-color: var(--color-principal);
+    color: #FFF;
+}
 .contenedor-imagenes {
 
   justify-content: space-around;
@@ -50,14 +63,29 @@
 }
 .juguetes {
   background-image: url("imagenes/01.jpg");
+  transition: 0.4s;
 }
 
 .gato {
   background-image: url("imagenes/02.jpg");
+  transition: 0.4s;
 }
 
 .perro {
   background-image: url("imagenes/03.jpg");
+  transition: 0.4s;
+}
+
+.contenido-principal .juguetes:hover {
+  filter: contrast(100%) brightness(75%);
+}
+
+.contenido-principal .perro:hover {
+  filter: contrast(100%) brightness(75%);
+}
+
+.contenido-principal .gato:hover {
+  filter: contrast(100%) brightness(75%);
 }
 
 .navbar-nav .boton-cabecera-especial {
